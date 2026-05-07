@@ -12,5 +12,8 @@ class finding_max:
         else:
             return self.c
         
-obj = finding_max(4,6,8)
-print(obj.finding())
+    def output(self):
+        print(f"The biggest number in those 3 numbers is: {self.finding()}")
+
+obj = finding_max(5,7,9)
+obj.output()
