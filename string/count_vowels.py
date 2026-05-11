@@ -1,5 +1,6 @@
-data = input("Enter the words: ")
-count = 0
+# Check for vowels
+
+data = input("Enter the words: ").lower()
 class vowels:
     def vow(self):
         count = 0

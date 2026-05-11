@@ -16,6 +16,7 @@ class sliders:
         time.sleep(3)
         actions.click_and_hold(right_handle).move_by_offset(-60,0).release().perform()
         time.sleep(3)
+        # actions.drag_and_drop_by_offset()
 
 
 sliding = sliders()

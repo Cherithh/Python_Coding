@@ -2,7 +2,7 @@
 
 class sums:
     def elements(self):
-        data = input("Enter your numbers with soaced in between: ").split()
+        data = input("Enter your numbers with spaced in between: ").split()
         result = 0
         for i in data:
             result += int(i)
