@@ -1,7 +1,8 @@
 import pytest
 
-@pytest.fixture(autouse=True)
-def setup1():
+
+@pytest.fixture()
+def setup():
     print("\nopen browser")
     print("open the url for shopping website")
     print("Buy items")
@@ -9,10 +10,3 @@ def setup1():
     print("\nexit cart")
     print("exit the shopping website")
     print("Close the browser")
-
-@pytest.fixture
-def testadditems(setup):
-    print("Added items to cart")
-
-def testremoveitems(setup):
-    print("Removed items from cart")
