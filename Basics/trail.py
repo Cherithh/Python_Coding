@@ -1,13 +1,5 @@
-# reverse of a number
+#  reverse
 
-num = int(input("Enter the number: "))
-
-rev = 0
-
-while num > 0:
-    total = num % 10
-    rev = (rev * 10) + total
-    num = num // 10
-
-print(rev)
-
+obj = [1,2,3,4,5,6]
+obj.reverse()
+print(obj)
