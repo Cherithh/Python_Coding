@@ -1,5 +1,9 @@
-#  reverse
+#  loop practice
 
-obj = [1,2,3,4,5,6]
-obj.reverse()
-print(obj)
+factorial = int(input("Enter the number: "))
+total = 1
+for i in range(1,factorial+1):
+    total *= i
+    i+=1
+    
+print(total)
