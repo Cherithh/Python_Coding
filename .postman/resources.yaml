@@ -2,8 +2,8 @@
 workspace:
   id: e9f87d00-ba01-4ce8-87cc-cd86a045f603
 
-# All resources in the `postman/` folder are automatically registered in Local View.
-# Point to additional files outside the `postman/` folder to register them individually. Example:
-#localResources:
-#  collections:
-#    - ../tests/E2E Test Collection/
+localResources:
+  docs:
+    - ..\Basics\README.md
+    - ..\Selenium\ReadME.md
+    - ..\README.md

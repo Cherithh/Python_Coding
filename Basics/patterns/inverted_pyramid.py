@@ -1,12 +1,6 @@
-# pattern programming
-
-for i in range(1,6):
-
-    # Spaces
+for i in range(5,0,-1):
     for j in range(5-i):
         print(" ",end="")
-
-    # Stars
     for k in range(2 * i - 1):
         print("*",end="")
 
