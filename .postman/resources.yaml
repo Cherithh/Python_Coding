@@ -1,9 +1,0 @@
-# Use this workspace to collaborate
-workspace:
-  id: e9f87d00-ba01-4ce8-87cc-cd86a045f603
-
-localResources:
-  docs:
-    - ..\Basics\README.md
-    - ..\Selenium\ReadME.md
-    - ..\README.md
