@@ -1,9 +1,13 @@
-lst1 = [1,2,3,4,5]
-lst2 = [5,7,4,3,1]
-common = []
-
-for i in lst1:
-    if i in lst2:
-        common.append(i)
-
-print(common)
+nums = [10,50,20,40,30]
+print(10 in nums)
+# nums.insert(0,1)
+# nums.append(60)
+# nums.remove(50)
+# nums.sort()
+# nums.pop()
+# nums.reverse()
+# print(len(nums))
+# print(min(nums))
+# print(max(nums))
+# print(sum(nums))
+# print(10 in nums)
